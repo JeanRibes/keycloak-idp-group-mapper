@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>
+        <!-- a generous collection of dependencies to simplify the development of extensions -->
+        <dependencies>
+            <module name="org.keycloak.keycloak-common" export="true"/>
+            <module name="org.keycloak.keycloak-core" export="true"/>
+            <module name="org.keycloak.keycloak-server-spi" export="true"/>
+            <module name="org.keycloak.keycloak-services" export="true"/>
+            <module name="org.jboss.logging" export="true" />
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
